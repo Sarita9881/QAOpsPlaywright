@@ -1,0 +1,30 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "regressionalltest": "playwright test",
+    "APITest": "playwright test --grep @web",
+    "Smoke": "playwright test --grep @Smoke",
+    "Safari": "playwright test --config playwright.config1.js",
+    "cucumberRegrsssion":"npx cucumber-js --tags '@Regression' --retry 1 --exit --format html:cucumberreport1.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.10.2",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.1.1",
+    "exceljs": "^3.4.0"
+  }
+}

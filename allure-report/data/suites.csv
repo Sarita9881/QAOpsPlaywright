@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2","@Webst Client App login","","2026-07-11","failed","2026-07-11","","ClientApp.spec.js","",""
+"","3875","Calendar validations","","2026-07-13","passed","2026-07-13","","Calender.spec.js","",""
+"","2","pop up validations","","2026-07-11","failed","2026-07-11","","MoreValidations.spec.js","",""
+"","6112","@Smoket Child windows hadl","","2026-07-14","passed","2026-07-14","","UIBasicstests.spec.js","",""
+"","7011","@Smoket UI Controls","","2026-07-14","passed","2026-07-14","","UIBasicstests.spec.js","",""
